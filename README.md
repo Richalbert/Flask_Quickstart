@@ -19,11 +19,11 @@ sur le Bureau :
 2. se connecter au serveur via un navigateur
     - http://127.0.0.1:5000
 
-# l'aide de Flask
+## l'aide de Flask
 ![image](https://github.com/Richalbert/Flask_Quick_Start/assets/40654401/dba4d1b2-3947-4236-911b-245a514da4c1)
 
 
-*REMARQUE :*
+## Remarque:
 
 - Flask cree des applications WSGI qui communiquent avec un serveur WSGI.
 - Les requetes HTTP sont transformees en requetes WSGI. 
