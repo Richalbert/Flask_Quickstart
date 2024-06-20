@@ -21,3 +21,10 @@ sur le Bureau :
 
 # l'aide de Flask
 ![image](https://github.com/Richalbert/Flask_Quick_Start/assets/40654401/dba4d1b2-3947-4236-911b-245a514da4c1)
+
+
+*REMARQUE :*
+
+- Flask cree des applications WSGI qui communiquent avec un serveur WSGI.
+- Les requetes HTTP sont transformees en requetes WSGI. 
+- [deployer un serveur WSGI](https://flask.palletsprojects.com/en/3.0.x/deploying/) en production
