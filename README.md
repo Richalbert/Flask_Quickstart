@@ -12,3 +12,12 @@ sur le Bureau :
   - pip install flask
   - pip freeze > requirements.txt
 
+# pour tester le programme
+
+1. lancer le serveur Flask localement
+    - flask --app .\1_hello.py run
+2. se connecter au serveur via un navigateur
+    - http://127.0.0.1:5000
+
+# l'aide de Flask
+![image](https://github.com/Richalbert/Flask_Quick_Start/assets/40654401/dba4d1b2-3947-4236-911b-245a514da4c1)
