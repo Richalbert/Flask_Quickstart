@@ -14,7 +14,7 @@ sur le Bureau :
 
 # pour tester le programme
 
-1. lancer le serveur Flask localement
+1. lancer le serveur de developpement Flask localement
     - flask --app .\1_hello.py run
 2. se connecter au serveur via un navigateur
     - http://127.0.0.1:5000
