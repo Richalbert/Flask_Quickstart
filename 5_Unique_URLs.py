@@ -36,7 +36,7 @@ def show_subpath(subpath):
 def projects():
     return "<h1>The project page</h1>"
 
-# The slash est ajoute par defaut
+# The slash 
 @app.route('/about')
 def about():
     return "<h1>The about page</h1>"

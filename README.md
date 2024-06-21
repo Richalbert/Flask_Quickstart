@@ -60,5 +60,10 @@ sur le Bureau :
 - on peut passer une variables depuis l'URL avec <variable_name>
 - la fonction a **variable_name** comme argument
   
+# Unique URL
+
+- Slash finale (/projects/) : Considéré comme un "dossier". Flask redirige /projects vers /projects/.
+- Pas de slash finale (/about) : Considéré comme un "fichier". Flask retourne une erreur 404 pour /about/
+
 # Logging
 
