@@ -40,7 +40,7 @@ with app.test_request_context():
     print(url_for('login', next='/'))
 
     # url_for('profile', username='John Doe') genere l'URL '/user/John Doe' pour la vue profile() avec le parametre dynamique 'username'
-    #print(url_for('profile', username='John Doe'))
+    print(url_for('profile', username='John Doe'))
 
 
 
