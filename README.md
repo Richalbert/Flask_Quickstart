@@ -50,3 +50,7 @@ sur le Bureau :
 - pour tester les injections <script>alert('Hacked !');</script> 2 programmes 
   - 1bis_injection.py
   - !bis_no_injection.py
+
+# Routing
+
+- Flask utilise des decorateur rooute() pour associer l'URL a la fonction
