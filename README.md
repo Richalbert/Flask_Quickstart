@@ -54,3 +54,9 @@ sur le Bureau :
 # Routing
 
 - Flask utilise des decorateur rooute() pour associer l'URL a la fonction
+
+# Variable Rules
+
+- on peut passer une variables depuis l'URL avec <variable_name>
+- la fonction a **variable_name** comme argument
+  
