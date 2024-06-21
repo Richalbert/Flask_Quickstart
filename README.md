@@ -45,4 +45,8 @@ sur le Bureau :
 
 # HTML Escaping
 
-idealement il faut proteger les donnees contre les attaques par injection
+- idealement il faut proteger les donnees contre les attaques par injection
+- par defaut le moteur Jinja2 e,peche les injections 
+- pour tester les injections <script>alert('Hacked !');</script> 2 programmes 
+  - 1bis_injection.py
+  - !bis_no_injection.py
