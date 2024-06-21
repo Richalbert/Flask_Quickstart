@@ -41,3 +41,8 @@ sur le Bureau :
 3. lancer
    
     `python hello.py`
+
+
+# HTML Escaping
+
+idealement il faut proteger les donnees contre les attaques par injection
