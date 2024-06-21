@@ -65,5 +65,12 @@ sur le Bureau :
 - Slash finale (/projects/) : Considéré comme un "dossier". Flask redirige /projects vers /projects/.
 - Pas de slash finale (/about) : Considéré comme un "fichier". Flask retourne une erreur 404 pour /about/
 
+# URL Building
+
+- permet de generer des URLs de maniere dynamique
+- **@app.route('/login')** declare la vue (fonction) **index()** pour la route **/login**
+
+
+
 # Logging
 
