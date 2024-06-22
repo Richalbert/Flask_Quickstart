@@ -70,6 +70,14 @@ sur le Bureau :
 - permet de generer des URLs de maniere dynamique
 - **@app.route('/login')** declare la vue (fonction) **index()** pour la route **/login**
 
+# HTTP Methods
+
+- par defaut @app.route() repond aux requetes GET
+- methods
+  
+# Static Files
+
+# Rendering Templates
 
 
 # Logging
