@@ -1,0 +1,14 @@
+<!-- templates/login.html -->
+ 
+<!doctype html>
+
+<title>Connection</title>
+
+<h1>login = {{ login }}</h1>
+<h1>password = {{ password }}</h1>
+
+{% if login and password %}
+    <h1>Hello {{ login }} / {{ password }}</h1>
+{% else %}
+    <h1>Hello {{ error }}</h1>
+{% endif %}
