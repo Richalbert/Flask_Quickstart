@@ -82,5 +82,28 @@ sur le Bureau :
 - permet de separer la logique (le code Pytho) de la presentation (le HTML)
 - la fonction render_templates('hello.html', person=name) passe variable person au fichier templates/hello.html
 
+# Accessing Request Data
+
+ou comment acceder aux donnees envoyees par les clients (navigateurs) dans les requetes HTTP. Ces donnees peuvent etre
+- des donnees de formulaire
+- des parametres d'URL
+- de cookies
+- de fichiers telecharges
+- ...
+
+## concept de base
+
+Flask fournit un objet *-request-* pour acceder aux donnees de la requete 
+- Form data: les donnees sont envoyees via des formulaires
+- Query string: les donnees sont envoyees via les parametres des urls
+- Files: a travers les fichiers telecharges
+- Cookies: via les cookies envoyes par le client
+- Header: en lisant l'entete html
+
+Les methodes de la requete (GET, POST) determinent ou sont stockees les donnees
+- *-request.args-* pour GET
+- *-request.form+* pour POST
+
+
 # Logging
 
