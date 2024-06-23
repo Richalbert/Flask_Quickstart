@@ -79,6 +79,8 @@ sur le Bureau :
 
 # Rendering Templates
 
+- permet de separer la logique (le code Pytho) de la presentation (le HTML)
+- la fonction render_templates('hello.html', person=name) passe variable person au fichier templates/hello.html
 
 # Logging
 
