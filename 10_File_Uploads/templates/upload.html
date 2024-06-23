@@ -1,0 +1,58 @@
+<!-- templates/upload.html 
+     ce fichier contient le formulaire de telechargement de fichier -->
+
+<!doctype html>
+
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload a File</title>
+    <!-- liens vers des fichiers CSS ou autres métadonnées-->
+</head>
+
+<body>
+    <!-- Contenu principal de la page -->
+    <header>
+        <h1>Bienvenue sur ma page</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#section1">Section 1</a></li>
+            <li><a href="#section2">Section 2</a></li>
+            <li><a href="#section3">Section 3</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="section1">
+
+            <h2>Section 1 : Upload a File</h2>
+
+            <form method="post" enctype="multipart/form-data" action="/upload">
+                <input type="file" name="file">
+                <input type="submit" value="Upload file">
+            </form>
+
+
+        </section>
+
+        <section id="section2">
+            <h2>Section 2</h2>
+            <p>Ceci est le contenu de la section 2.</p>
+        </section>
+
+        <section id="section3">
+            <h2>Section 3</h2>
+            <p>Ceci est le contenu de la section 3.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mon site web</p>
+    </footer>
+</body>
+
+</html>

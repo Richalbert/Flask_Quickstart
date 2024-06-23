@@ -104,6 +104,13 @@ Les methodes de la requete (GET, POST) determinent ou sont stockees les donnees
 - *-request.args-* pour GET
 - *-request.form+* pour POST
 
+## Request Object
+
+voir 10_request_object
+
+## File Uploads
+
+
 
 # Logging
 
