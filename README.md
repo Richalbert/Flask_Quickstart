@@ -110,7 +110,46 @@ voir 10_request_object
 
 ## File Uploads
 
+voir 10_File_Uploads
 
+## Cookies
 
-# Logging
+Todo
+
+## Redirects and Errors
+
+Todo
+
+## About Responses
+
+Todo
+
+## APIs with JSON
+
+Todo
+
+## Sessions
+
+Todo
+
+## Message Flashing
+
+Tode
+
+## Logging
+
+Todo
+
+## Hooking in WSGI Middleware
+
+Todo
+
+## Using Flask extensions
+
+Todo
+
+## Deploying to a Web Server
+
+Todo
+
 
