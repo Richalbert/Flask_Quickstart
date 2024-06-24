@@ -20,33 +20,45 @@
 
     <nav>
         <ul>
-            <li><a href="#section1">Section 1</a></li>
-            <li><a href="#section2">Section 2</a></li>
-            <li><a href="#section3">Section 3</a></li>
+            <li><a href="#section1">Upload a file</a></li>
+            <li><a href="#section2">Upload multiple files</a></li>
+            <li><a href="#section3">Upload one file or more</a></li>
         </ul>
     </nav>
 
     <main>
         <section id="section1">
 
-            <h2>Section 1 : Upload a File</h2>
+            <h2>Upload a File</h2>
+            <p>Permet de telecharger un seul fichier</p>
 
-            <form method="post" enctype="multipart/form-data" action="/upload">
+            <form action="/upload" method="post" enctype="multipart/form-data">
                 <input type="file" name="file">
-                <input type="submit" value="Upload file">
+                <input type="submit" value="Upload">
             </form>
 
 
         </section>
 
         <section id="section2">
-            <h2>Section 2</h2>
-            <p>Ceci est le contenu de la section 2.</p>
+            <h2>Upload multiple files</h2>
+            <p>Permet de telecharger plusieurs fichiers</p>
+
+            <form action="/uploads" method="post" enctype="multipart/form-data">
+                <input type="file" name="file" multiple>
+                <input type="submit" value="Upload">
+            </form>
+
         </section>
 
         <section id="section3">
-            <h2>Section 3</h2>
-            <p>Ceci est le contenu de la section 3.</p>
+            <h2>Upload one file or more</h2>
+            <p>Telecharge unseul fichier ou plusieurs.</p>
+
+            <form action="/upload2" method="post" enctype="multipart/form-data">
+                <input type="file" name="file" multiple>
+                <input type="submit" value="Upload">
+            </form>
         </section>
     </main>
 

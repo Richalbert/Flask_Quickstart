@@ -1,0 +1,28 @@
+<!-- templates/ackmowledgement.html.html 
+     ce fichier est lu si le telechargement s'est bien passe -->
+
+<!doctype html>
+
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    <title>success</title>
+        
+    <!-- liens vers des fichiers CSS ou autres métadonnées-->
+</head>
+     
+<body>
+    <h1>File uploaded successfully</h1> 
+
+    {% if not multiple %}
+        <h3>File Name: {{name}}</h3> 
+    {% else %}
+        {% for file in name %}
+            <h3>File Name : {{ file }}</h3>
+        {% endfor %}
+    {% endif %} 
+
+</body> 
+</html>
